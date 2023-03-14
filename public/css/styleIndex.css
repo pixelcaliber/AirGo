@@ -1,0 +1,101 @@
+
+  .form-container {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.55);
+  }
+
+
+  .footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: inherit;
+  }
+
+  .select-width {
+    width: 50%;
+  }
+
+  #main-content {
+    margin: 0px;
+    height: inherit;
+  }
+
+  #clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+    border-radius: 50%;
+    margin: 50px auto;
+    /* center the clock horizontally and add a margin to center it vertically */
+  }
+
+  #hour-hand,
+  #minute-hand,
+  #second-hand {
+    position: absolute;
+    background: #333;
+    transform-origin: bottom center;
+    left: 50%;
+    /* position the hands horizontally in the center */
+  }
+
+  #hour-hand {
+    width: 8px;
+    height: 63px;
+    border-radius: 5px 5px 0 0;
+    bottom: 90px;
+    /* position the hour hand at the bottom of the clock face */
+    margin-left: -4px;
+    /* center the hour hand horizontally */
+  }
+
+  #minute-hand {
+    width: 4px;
+    height: 80px;
+    border-radius: 5px 5px 0 0;
+    bottom: 90px;
+    /* position the minute hand slightly above the hour hand */
+    margin-left: -2px;
+    /* center the minute hand horizontally */
+  }
+
+  #second-hand {
+    width: 2px;
+    height: 86px;
+    border-radius: 5px 5px 0 0;
+    bottom: 90px;
+    /* position the second hand slightly above the minute hand */
+    margin-left: -1px;
+    /* center the second hand horizontally */
+  }
+
+  #center-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text-m{
+    color: #333;
+  }
+  .navbar-brand:hover {
+    text-shadow: 0px 5px 7px rgb(0, 0, 0, 1);
+  }
+  .nav-link:hover{
+    text-shadow: 0px 5px 7px rgb(0, 0, 0, 1);
+  }
+  
